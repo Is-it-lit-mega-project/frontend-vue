@@ -4,7 +4,6 @@
   </main>
 </template>
 
-
 <script>
 export default {
   name: "Parties",

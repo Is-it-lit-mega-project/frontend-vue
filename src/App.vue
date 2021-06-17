@@ -24,10 +24,12 @@ nav {
   a {
     font-weight: bold;
     color: #2c3e50;
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     border-right: solid 1px magenta;
 
-    &:last-of-type { border-right: none;}
+    &:last-of-type {
+      border-right: none;
+    }
 
     &.router-link-exact-active {
       color: #42b983;

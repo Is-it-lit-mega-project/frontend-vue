@@ -1,4 +1,4 @@
-# mochatest
+# Frontend Vue
 
 ## Project setup
 ```
