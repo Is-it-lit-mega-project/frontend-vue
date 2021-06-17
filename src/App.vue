@@ -1,8 +1,11 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+  <nav>
+    <router-link to="/">Home</router-link>
+    <router-link to="/characters">Characters</router-link>
+    <router-link to="/parties">Parties</router-link>
+    <router-link to="/quests">Quests</router-link>
+    <router-link to="/relationships">Relationships</router-link>
+  </nav>
   <router-view />
 </template>
 
@@ -15,12 +18,16 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+nav {
+  padding: 2rem;
 
   a {
     font-weight: bold;
     color: #2c3e50;
+    padding: 0 .5rem;
+    border-right: solid 1px magenta;
+
+    &:last-of-type { border-right: none;}
 
     &.router-link-exact-active {
       color: #42b983;
