@@ -1,5 +1,9 @@
 # Frontend Vue
 
+## Production Deploy
+
+Continous deployment is configured with Netlify, and the live site can be viewed at https://romantic-ramanujan-255422.netlify.app/.
+
 ## Project setup
 ```
 npm install
